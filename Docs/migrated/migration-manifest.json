@@ -1,0 +1,48 @@
+{
+  "name": "ecc-codex",
+  "source": {
+    "repository": "https://github.com/affaan-m/ECC",
+    "local_checkout": "/home/sansha/Github/ecc",
+    "head": "1e8c7e7994223e0ff337d1626cd08e04a1ae67ed",
+    "origin": "git@github.com:affaan-m/ecc.git",
+    "license": "MIT",
+    "credit": "Original ECC project by Affaan Mustafa and contributors."
+  },
+  "codex_surface": {
+    "skills": 233,
+    "agents": 60,
+    "commands_reference": 75,
+    "rules": 110,
+    "hooks_reference": 4,
+    "plugin_manifest": ".codex-plugin/plugin.json",
+    "codex_config": ".codex/config.toml",
+    "codex_instructions": "AGENTS.md",
+    "added_codex_skill_aliases": [
+      "skills/everything-claude-code from .agents/skills/everything-claude-code"
+    ]
+  },
+  "layout_policy": "Preserve upstream directory tree wherever possible; add Codex-specific installer, verifier, and migration docs without moving upstream artifacts.",
+  "install_target": "/home/sansha/.codex",
+  "skills_sample": [
+    "accessibility",
+    "agent-architecture-audit",
+    "agent-eval",
+    "agent-harness-construction",
+    "agent-introspection-debugging",
+    "agent-payment-x402",
+    "agent-sort",
+    "agentic-engineering",
+    "agentic-os",
+    "ai-first-engineering",
+    "ai-regression-testing",
+    "android-clean-architecture",
+    "angular-developer",
+    "api-connector-builder",
+    "api-design",
+    "architecture-decision-records",
+    "article-writing",
+    "automation-audit-ops",
+    "autonomous-agent-harness",
+    "autonomous-loops"
+  ]
+}
